@@ -11,6 +11,8 @@ class LastScorePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Last Score Page'),
+          automaticallyImplyLeading: false, // to remove the upper arrow
+        leading: null,
       ),
       body: Center(
         child: Column(
