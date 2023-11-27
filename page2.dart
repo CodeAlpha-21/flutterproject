@@ -93,6 +93,7 @@ class _page2State extends State<page2> {
               );
             },
           ),
+          SizedBox(height: 30,),
           ElevatedButton(
             onPressed: () {
               Navigator.of(context).push(
