@@ -1,25 +1,26 @@
 import 'package:flutter/material.dart';
-import 'check.dart';
-import 'page3.dart';
-import 'score.dart';
+import 'WelcomeScreen.dart';
+
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  final Counter myCounter = Counter();
+  const MyApp({Key? key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/',
-      routes: {
-        '/': (context) => page3(counter: myCounter),
-        '/last_score': (context) => LastScorePage(counter: myCounter),
-      },
+      title: 'Picture Quiz App',
+      theme: ThemeData(
+        primarySwatch: Colors.deepPurple,
+      ),
+      home: const WelcomeScreen(), // Display the welcome screen initially
     );
   }
 }
+
+
 
