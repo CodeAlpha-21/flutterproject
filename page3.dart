@@ -18,6 +18,8 @@ class _page3State extends State<page3> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Good luck in your exam'),
+        automaticallyImplyLeading: false, // to remove the upper arrow
+        leading: null,
         centerTitle: true,
       ),
       body: Center(
