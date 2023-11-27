@@ -44,6 +44,8 @@ class _page2State extends State<page2> {
     child: Scaffold(
       appBar: AppBar(
         title: Text('Picture Quiz'),
+        automaticallyImplyLeading: false, // to remove the upper arrow
+        leading: null,
       ),
       body: ListView(
         children: [
