@@ -152,10 +152,13 @@ class _QuizScreenState extends State<QuizScreen> {
     });
   }
 
-  void retryQuiz() {
+   void retryQuiz() {
     setState(() {
       currentQuestion = 0;
       score = 0;
     });
+
+    // Navigate back to the first page
+    Navigator.of(context).popUntil((route) => route.isFirst);
   }
 }
