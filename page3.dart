@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'check.dart';
 import 'page1.dart';
-import 'page4.dart';
+import 'WelcomeScreen.dart'
 
 class page3 extends StatefulWidget {
   final Counter counter;
@@ -49,7 +49,7 @@ class _page3State extends State<page3> {
               onPressed: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(
-                    builder: (context) => page4(counter: widget.counter),
+                    builder: (context) => WelcomeScreen(),
                   ),
                 );
               },
