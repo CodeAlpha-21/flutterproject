@@ -99,7 +99,7 @@ class _page5State extends State<page5> {
                   MaterialPageRoute(builder: (context) => page6(counter: widget.counter)),
                 );
               },
-              child: Text('Show Last Score'),
+              child: Text('next question'),
             ),
           ],
         ),
