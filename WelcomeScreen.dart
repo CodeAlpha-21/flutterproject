@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'QuizScreen.dart';
-import 'page3.dart';
+
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
 
@@ -30,17 +30,6 @@ class WelcomeScreen extends StatelessWidget {
                 );
               },
               child: const Text('What Sign Is This?'),
-            ),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                // Navigate to the quiz screen when the button is pressed
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const page3()),
-                );
-              },
-              child: const Text('Guess The  Sign.'),
             ),
           ],
         ),
