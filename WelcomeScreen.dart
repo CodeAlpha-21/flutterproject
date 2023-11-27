@@ -29,7 +29,7 @@ class WelcomeScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const QuizScreen()),
                 );
               },
-              child: const Text('Start Quiz'),
+              child: const Text('What Sign Is This?'),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
