@@ -94,6 +94,7 @@ class _page1State extends State<page1> {
               );
             },
           ),
+          SizedBox(height: 30,),
           ElevatedButton(
               onPressed: () {
                 Navigator.of(context).push(
@@ -103,6 +104,7 @@ class _page1State extends State<page1> {
               },
               child: const Icon(Icons.navigate_next, size: 50)
           ),
+          SizedBox(height: 30,),
           Text('Current count: ${counter.count}'),
         ],
       ),
