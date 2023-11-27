@@ -17,7 +17,7 @@ class _page6State extends State<page6> {
     'assets/leftre.jpg',
   ];
 
-  int correctAnswerIndex = 2;
+  int correctAnswerIndex = 3;
   bool hasUserAnswered = false;
 
   void checkAnswer(int selectedAnswerIndex) {
@@ -52,7 +52,7 @@ class _page6State extends State<page6> {
             const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Choose the correct picture of U turn sign:',
+                'Choose the correct picture of you can go left or right only sign:',
                 style: TextStyle(fontSize: 20),
               ),
             ),
