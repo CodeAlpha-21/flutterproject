@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'check.dart';
 import 'page1.dart';
-import 'WelcomeScreen.dart'
+import 'WelcomeScreen.dart';
 
 class page3 extends StatefulWidget {
   final Counter counter;
